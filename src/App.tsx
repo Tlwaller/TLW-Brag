@@ -58,10 +58,8 @@ function App() {
             'TypeScript',
             'React-Bootstrap / Bootstrap 5',
             'MySQL',
-            'PostgreSQL',
             'GraphQL',
             'Node.js',
-            '.NET (some)',
           ].map((tech) => (
             <Badge
               key={tech}
