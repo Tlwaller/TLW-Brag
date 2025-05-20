@@ -54,7 +54,6 @@ function App() {
         <div>
           {[
             'React',
-            'JavaScript',
             'TypeScript',
             'React-Bootstrap / Bootstrap 5',
             'MySQL',
