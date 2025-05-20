@@ -1,18 +1,7 @@
 import { Container, Row, Col, Badge, Card } from 'react-bootstrap';
 
-// Import Montserrat font (add this to your index.html or use a package like typeface-montserrat for local import)
-// Example for index.html: 
-// <link href="https://fonts.googleapis.com/css?family=Montserrat:700,600,500,400&display=swap" rel="stylesheet">
-
 const PRIMARY = '#3FABD9';
 const ACCENT = '#EE8411';
-
-// Helper style objects
-const montserratBold = {
-  fontFamily: "'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-  fontWeight: 700,
-  fontStyle: 'normal',
-};
 
 const montserratBoldItalic = {
   fontFamily: "'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
@@ -81,7 +70,6 @@ function App() {
               style={{
                 backgroundColor: ACCENT,
                 color: 'white',
-                fontWeight: 700,
                 fontSize: '0.85rem',
                 boxShadow: `0 2px 6px ${ACCENT}88`,
                 ...montserratBoldNormal,
